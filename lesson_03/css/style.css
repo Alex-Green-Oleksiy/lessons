@@ -1,0 +1,38 @@
+
+@import url("reset.css");
+
+
+h1,
+h2{
+	color: #00b10f;
+}
+div{
+	color: #a8d30c;
+}
+.first-time{
+	color: #0c5cd3;
+}
+#first_time{
+	color: #d30c87;
+}
+[class*="rt"]{
+	color: #480658;
+}
+p.death{
+	color: #ff095b;
+}
+.yong_career span{
+	color: #00b10f;
+}
+.list>.link{
+	color: #d30c0c;
+}
+.link+li.persecution{
+	color: #480658;
+}
+.new_time ~ p{
+	color: #d30c0c;
+}
+footer *{
+	color: #21b5c9;
+}
