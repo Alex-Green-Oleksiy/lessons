@@ -1,0 +1,107 @@
+
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Kolker+Brush:regular");
+@import url("fonts.css");
+@import url("reset.css");
+body{
+font-family: 'Work Sans', sans-serif;
+font-size: 18px;
+line-height: 1.33; 
+}
+[class*='__title'] {
+text-transform: uppercase;
+text-decoration: underline;
+}
+.menu__list {
+text-align: center;
+}
+.menu__link {
+font-size: 24px;
+line-height: 1.2;
+text-decoration: overline;
+color: rgba(206, 18, 128, 0.9);
+text-shadow: 0px 0px 7px rgba(106, 7, 136, 0.986);
+}    
+
+.who__title {
+font-size: 38px;
+line-height: 1.31;
+font-weight: 600;
+text-align: center;
+color: #0a3d8a;
+}
+.who__text {
+font-size: 18px;
+line-height: 1.33;
+white-space: nowrap;
+color: #a81be9;
+}
+
+
+.block__introduce {
+font-family: 'Roboto', sans-serif;
+}
+.introduce__title {
+font-size: 50px;
+line-height: 1.32;
+font-weight: 500; 
+text-decoration-style:dotted;
+color: #036669;
+text-decoration-color: #85033f;
+}
+.introduce__text {
+line-height: 1.67;
+text-align: justify;
+color: #505F98;
+}
+
+.block__about {
+font-family: 'WorkSans', sans-serif;
+text-align: center;
+}
+.about__title {
+font-size: 88px;
+line-height: 1.07;
+font-weight: bold;
+text-decoration-style:double;
+color: #03545a;
+}
+.about__text {
+font-size: 24px;
+line-height: 1.75;
+word-spacing: 15px; 
+color: #7e0974;
+
+}
+.about__text span {
+text-decoration:underline;
+color: rgb(20, 19, 19);
+}
+
+.all__text>.two{
+    font-family: 'Kolker Brush';
+    font-size: 38px;
+    line-height: 1.31;
+   
+   
+   }
+.all__text .three{
+    font-family: 'Dancing Script';
+    font-size: 38px;
+    line-height: 1.31;
+   
+   }
+
+
+.container__footer {
+text-align: left;
+letter-spacing: 2px;
+text-decoration:underline;
+font-weight: bold;
+color: #c00a0a;
+text-shadow: 2px 3px 4px rgb(0, 0, 0);
+}
+
+
