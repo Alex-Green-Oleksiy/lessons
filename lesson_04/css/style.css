@@ -79,11 +79,20 @@ color: #7e0974;
 text-decoration:underline;
 color: rgb(20, 19, 19);
 }
+.container__all>.all__title{
+    font-family: 'WorkSans', sans-serif;
+    font-size: 88px;
+    text-align: center;
+line-height: 1.07;
+color: #0c035a;
+
+}
 
 .all__text>.two{
     font-family: 'Kolker Brush';
     font-size: 38px;
     line-height: 1.31;
+   
    
    
    }
