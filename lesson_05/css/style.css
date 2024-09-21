@@ -1,0 +1,254 @@
+
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700");
+@import url("fonts.css");
+@import url("reset.css");
+
+body{
+max-width: 90%;
+margin: 0 auto;
+}
+
+.introduce,
+.design{
+	font-family:"Roboto" ;
+}
+.introduce {
+	max-width: 539px;
+	margin-inline:auto;
+	margin-bottom: 40px;
+}
+.introduce__title {
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 1.32; 
+	margin-bottom: 20px;
+	color: #091133;
+}
+.introduce__text {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.66;
+	color: #505F98;
+}
+.introduce__text p{
+	margin-bottom: 15px;
+}
+.introduce__button {
+	margin-top: 76px;
+}
+.introduce__button a{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.62;
+	text-align: center;
+	padding-inline: 45px;
+	padding-block: 10px;
+	margin-right: 30px;
+    color: #091133;
+}
+.introduce__button .purchase{
+	background-color: #091133;
+	color: #fff;
+}
+/* ---------------------------------------- */
+.design {
+	max-width: 520px;
+	margin-inline: auto;
+	margin-block: 90px;
+	overflow: hidden;
+}
+.design__title {
+	font-size: 36px;
+	font-weight: 500;
+	line-height:1.33;
+	margin-bottom: 15px;
+	color: #091133;
+}
+.design__text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.62;
+	color: #6F7CB2;
+}
+.design__text p{
+	margin-bottom: 10px;
+}
+.design__grid {
+	margin-top: 71px;
+	max-width: 520px;
+	
+}
+.items {
+	margin-left: -5px;
+	margin-right: -5px;
+	font-size: 0;
+	
+}
+.items .item {
+	min-width: 245px;
+	width: 50%;
+	height: 138px;
+	display: inline-block;
+	margin-bottom: 10px;
+	padding-inline:5px ;
+	
+}
+.item img{
+	width: 36px;
+	margin-bottom: 14px;
+}
+.item h3{
+	font-size: 16px;
+	font-weight: 500;
+	line-height:1.62;
+	margin-bottom: 6px;
+	color: #091133;
+}
+.item p{
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #5D6970;
+}
+/* ------------------------------------ */
+.provide {
+	font-family: "Manrope";
+	max-width: 1906px;
+	overflow: hidden;
+	margin-inline: auto;
+	margin-top: 80px;
+	background-color: #1a1a1a;
+}
+
+.provide__title {
+	max-width: 1297px;
+	font-size: 38px;
+	font-weight: 700;
+	line-height:1.5;
+	color: #ffffff;
+	margin-bottom: 14px;
+}
+.provide__text {
+	max-width: 1297px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+	margin-bottom: 80px;
+	color: #999;
+}
+.provide__grid{
+	margin-left: -5px;
+	margin-right: -5px;
+	
+
+}
+.provide__grid .item{
+	min-width: 423px;
+	max-width: 512px;
+	width: 33.333%;
+	height: 283px;
+	display: inline-block;
+	vertical-align: top;
+	margin-inline: 15px;
+	margin-block-end:30px ;
+	padding: 50px;
+	background: linear-gradient(222deg, rgba(229, 0, 0, 0.50) -208.03%, rgba(229, 0, 0, 0.00) 41.32%), #0F0F0F;
+
+}
+.provide__grid .item img{
+	width: 72px;
+	height: 72px;
+	padding: 16px;
+	margin: 0px 20px 30px 0px;
+	vertical-align: middle;
+	background: var(--Black-08, #141414);
+}
+.provide__grid .item h3{
+	display: inline-block;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1.5;
+	vertical-align: middle;
+	color: #fff;
+}
+.provide__grid .item p{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #999;
+}
+/* ---------------------------------- */
+
+
+.blocked div span{
+	color: red;
+}
+
+.blocked .block1{
+	font-family: 'Dark Mystic';
+	font-weight: 600;
+	line-height: 1.5;
+	font-size: 38px;
+	max-width: 400px;
+	max-height: 500px;
+	overflow: clip;
+	margin: 0 auto;
+}
+.blocked .block2{
+	font-family: 'Dancing Script';
+	font-weight: 600;
+	line-height: 1.5;
+	font-size: 38px;
+	max-width: 500px;
+	max-height: 500px;
+	overflow: scroll;
+	
+}
+.blocked .block3{
+	font-family: 'Sacramento';
+	font-weight: 600;
+	line-height: 1.5;
+	font-size: 38px;
+	max-width: 400px;
+	max-height: 500px;
+	overflow: auto;
+	margin: 0 auto;
+}
+.blocked .block4{
+	font-family: 'Dark Mystic';
+	font-weight: 600;
+	line-height: 1.5;
+	font-size: 38px;
+	max-width: 600px;
+	max-height: 400px;
+	overflow-x:visible;
+	background-color: #999;
+	writing-mode: vertical-rl;
+}
+.blocked .block5{
+	font-family: 'Dancing Script';
+	font-weight: 600;
+	line-height: 1.5;
+	font-size: 38px;
+	max-width: 400px;
+	max-height: 500px;
+	overflow-y:scroll;
+	margin: 40px auto 0px 60%;
+}
+.blocked .block6{
+	font-family: 'Sacramento';
+	font-weight: 600;
+	line-height: 1.5;
+	font-size: 38px;
+	max-width: 400px;
+	max-height: 500px;
+	overflow: auto;
+	display: none;
+}
+
+footer p{
+	font-size: 20px;
+	color: #091133;
+}
