@@ -1,0 +1,184 @@
+
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,800");
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700");
+@import url("fonts.css");
+@import url("reset.css");
+
+body{
+	max-width: 100%;
+}
+.wrapper {
+	max-width: 100%;
+}
+header{
+	background: radial-gradient(circle, rgba(20,20,20,1) 23%, rgba(167,15,15,0.4206057422969187) 27%, rgba(20,20,20,1) 46%, rgba(166,6,6,1) 64%, rgba(20,20,20,1) 81%);;
+}
+h1{
+	font-family: 'DancingScript';
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	width: 450px;
+	padding-block: 20px;
+	margin: 0px auto; 
+	color: #6b1515;
+	background-color: #999;
+	border-top:  5px solid #290909;
+	border-bottom:  3px solid #041079;
+	border-left: 7px dashed #061113 ;
+	border-right:  7px dotted #0b090e;
+	border-radius:65px 5px 120px 60px;
+	box-shadow: 14px 9px 14px 2px rgba(71, 12, 12, 0.55) inset;
+}
+h1:hover{
+	border-right:  7px dotted transparent;
+	border-bottom:  3px solid transparent;
+}
+/* --------------------------------- */
+.section1{
+	overflow: hidden;
+	max-width: 100%;
+	font-family: Manrope;
+    background:linear-gradient(180deg, rgba(20,20,20,1) 1%, rgba(0,0,0,0.3206057422969187) 31%, rgba(20,20,20,1) 63%),
+				url("../img/fon.png") top / auto no-repeat;
+}
+.container__stream{
+	max-width: 1597px;
+	min-height: 1092px	;
+	margin-inline:auto;
+}
+.stream__play{
+	display: block;
+	margin: 195px auto;
+	text-align: center;
+	max-width: 470px;
+	max-height: 470px;
+}
+.stream__title {
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 58px;
+	font-weight: 700;
+	line-height: 1.5;
+	color: #fff;
+	margin-bottom: 14px;
+}
+.stream__text {
+	color: #999;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+	max-width: 1096px;
+	margin-block: 0 50px;
+	margin-inline: auto;
+}
+.stream__button {
+	display: block;
+	width: 251px;
+	align-items: center;
+	color: #fff;
+	background: #E50000;
+	border-radius: 8px;
+	margin-inline: auto;
+}
+.stream__button span{
+	background: url("../img/icon.svg") 24px/ 28px no-repeat;
+	min-height: 28px;
+	display: inline-block;
+	padding-inline: 55px 30px;
+	padding-block: 18px;
+}
+/* --------------------------------------------- */
+.section2 {
+	background: #FDF0E9;
+	font-family: Epilogue;
+}
+.container__features {
+	max-width: 1170px;
+	margin-inline: auto;
+	padding-block: 200px;
+}
+.features__left{
+	display: inline-block;
+	max-width: 470px;
+	vertical-align:bottom;
+	margin-right:160px;
+	
+}
+.features__left .subtitle{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 2.0;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	color: #EF6D58;
+}
+.features__title {
+	font-size: 56px;
+	font-weight: 800;
+	line-height: 1.14;
+	letter-spacing: -1px;
+	margin-bottom: 26px;
+	color: #391400;
+}
+.feature__text {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.6;
+	margin-bottom: 26px;
+	color: #391400;
+}
+ol{
+	font-size: 16px;
+	font-weight: 400;
+	line-height:2.0;
+	color:rgba(57, 20, 0, 0.64);
+}
+ol li{
+	background: url("../img/check.svg")  0 center / 32px no-repeat;
+	padding-top: 5px;
+	padding-left: 46px;
+	margin-bottom: 16px;
+	min-height: 32px;
+}
+.features__right {
+	display: inline-block;
+	vertical-align: top;
+}
+/* ----------------------------- */
+.section3{
+	background: url("../img/girl.png")  0 center / 100% no-repeat,
+	linear-gradient(135deg, transparent 0%, transparent 6%,rgba(71, 71, 71,0.04) 6%, rgba(71, 71, 71,0.04) 22%,transparent 22%, transparent 100%),linear-gradient(45deg, transparent 0%, transparent 20%,rgba(71, 71, 71,0.04) 20%, rgba(71, 71, 71,0.04) 47%,transparent 47%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 24%,rgba(71, 71, 71,0.04) 24%, rgba(71, 71, 71,0.04) 62%,transparent 62%, transparent 100%),linear-gradient(45deg, transparent 0%, transparent 73%,rgba(71, 71, 71,0.04) 73%, rgba(71, 71, 71,0.04) 75%,transparent 75%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+	background-attachment: fixed;
+	min-height: 700px;
+}
+.container__section3{
+	background: url("../img/insta.png")  0 0 / 200px no-repeat;
+	max-width: 1170px;
+	margin-inline: auto;
+}
+.finish__title{
+	font-family: 'DancingScript';
+	font-size: 55px;
+	text-align: center;
+	color: #041079;
+	padding-block: 40px;
+	text-transform: uppercase;
+}
+.finish__text{
+	font-family: 'DancingScript';
+	font-size: 45px;
+	font-weight: 500;
+	padding-inline: 45px;
+}
+/* ------------------------------ */
+.footer p{
+	font-family: 'DancingScript';
+	font-size: 20px;
+	text-align: center;
+	padding-block: 20px;
+	background-color: #FDF0E9;
+}
