@@ -198,7 +198,7 @@ h1:target{
 /* ------------------------------------------------- */
 .timeline{
 	font-family:"DM Sans";
-	background-color: fff;
+	background-color: #fff;
 }
 .timeline__container{
 	max-width: 650px;
