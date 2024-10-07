@@ -1,0 +1,60 @@
+
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Mohave:600");
+body {
+	font-family:"Mohave";
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden; /* clip */
+	background: linear-gradient(180deg, rgba(139,144,145,1) 0%, rgba(70,72,73,1) 40%, rgba(0,0,0,1) 94%);
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-inline: 15px;
+}
+.header h1{
+	font-size: 45px;
+	text-align: center;
+	padding-block: 15px;
+	padding-inline: 25px;
+}
+.vector, .rastr {
+	margin-bottom: 20px;
+}
+.vector{
+	padding: 10px;
+	border: 1px solid ;
+	border-image: linear-gradient(45deg, purple, orange) 1;
+}
+.vector:hover,
+.rastr:hover{
+	background-color: #b8b5b54b;
+}
+.vector .text,
+.rastr .text{
+	font-size: 18px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.rastr{
+	border-bottom: 2px solid;
+	border-image: linear-gradient(45deg, purple, orange) 1;
+	border-radius: 10px;
+	text-align: center;
+}
+.rastr img{
+	border-radius: 10px;
+	margin-bottom: 10px;
+	max-width: 1160px;
+}
+.footer .container{
+	text-align: center;
+	color: red;
+	padding-inline: 20px;
+	padding-block: 10px;
+}
