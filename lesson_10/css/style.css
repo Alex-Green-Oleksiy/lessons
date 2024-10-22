@@ -66,6 +66,7 @@ body {
 	background-color: #e1ad69;
 	border-radius: 15px;
 	padding: 5px;
+	z-index:2;
 }
 .page__fixed img{
 	width: 100%;
