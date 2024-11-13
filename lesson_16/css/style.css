@@ -154,7 +154,7 @@ body {
 		transition: inset-inline-start 0.3s;
 		overflow: auto;
 		padding: 100px 15px 30px;
-		background-color: #da1111;
+		background-color: #000;
 	}
 
 	.menu__body::before {
