@@ -1,4 +1,4 @@
-@import url("css/reset.css");
+@import url("reset.css");
 @import url("https://fonts.googleapis.com/css?family=Epilogue:700&display=swap");
 
 body {
@@ -28,7 +28,7 @@ body {
 
 .flex, .grid {
     padding-block: 80px;
-    background: url(img/flover.png) 100% 100% / 10% repeat;
+    background: url(../img/flover.png) 100% 100% / 10% repeat;
 }
 
 .flex__title, .grid__title {
