@@ -703,7 +703,8 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	gap: 30px;
+	column-gap: 130px;
+	row-gap: 30px;
 	flex-wrap: wrap;
 }
 .founder__img {
