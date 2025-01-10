@@ -130,10 +130,7 @@ body {
 }
 
 .card-portfolio__content {
-	display: flex;
-	align-items: flex-start;
-	flex-direction: column;
-	flex-wrap: wrap;
+	z-index: 1;
 }
 
 .card-portfolio__logo {
@@ -388,7 +385,7 @@ body {
 	flex-direction: column;
 	flex-wrap: wrap;
 	position: relative;
-	z-index: 2;
+	z-index: 3;
 }
 .card-grid__logo {
 	color: #391400;
