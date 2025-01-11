@@ -1,0 +1,17 @@
+@import "reset.css";
+body{
+    background-color: #b3b0b0;
+}
+.next-page{
+    display: block;
+    padding: 20px;
+}
+.next-page--color{
+    color: #fff;
+}
+.next-page--size{
+    font-size: 35px;
+}
+.next-page:hover{
+    color: #ec4949;
+}
