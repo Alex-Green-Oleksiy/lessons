@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<title>lesson  19/2</title>
+	<title>lesson 19/2</title>
 </head>
 
 <body>
@@ -31,74 +31,78 @@
 				</div>
 			</div>
 		</header>
+		<!-- main -->
 		<main class="page">
-			<section class="page__portfolio portfolio">
-				<div class="portfolio__container">
-					<div class="portfolio__header-block header-block">
+			<section class="page__latest latest">
+				<ul class="latest__container">
+					<div class="latest__header-block header-block">
 						<div class="header-block__label">Portfolio</div>
 						<h2 class="header-block__title">Latest Work</h2>
 					</div>
-					<ul class="portfolio__nav-list">
-						<li class="portfolio__nav-item"><a href="#" class="portfolio__nav-link">Show
-								All<sup>14</sup></a></li>
-						<li class="portfolio__nav-item"><a href="#" class="portfolio__nav-link">Design<sup>6</sup></a>
+					<ul class="latest__nav-list">
+						<li class="latest__nav-item"><a href="#" class="latest__nav-link">Show
+								All<sup>14</sup></a>
 						</li>
-						<li class="portfolio__nav-item"><a href="#" class="portfolio__nav-link">Branding<sup>4</sup></a>
+						<li class="latest__nav-item"><a href="#" class="latest__nav-link">Design<sup>6</sup></a>
 						</li>
-						<li class="portfolio__nav-item"><a href="#"
-								class="portfolio__nav-link">Illustration<sup>3</sup></a></li>
-						<li class="portfolio__nav-item"><a href="#" class="portfolio__nav-link">Motion<sup>1</sup></a>
+						<li class="latest__nav-item"><a href="#" class="latest__nav-link">Branding<sup>4</sup></a>
+						</li>
+						<li class="latest__nav-item"><a href="#" class="latest__nav-link">Illustration<sup>3</sup></a>
+						</li>
+						<li class="latest__nav-item"><a href="#" class="latest__nav-link">Motion<sup>1</sup></a>
 						</li>
 					</ul>
-					<div class="portfolio__cards">
-						<article class="portfolio__card card-portfolio card-portfolio--design">
-							<a href="#" class="card-portfolio__item">
-								<div class="card-portfolio__picture">
+					<ul class="latest__cards">
+						<!-- cards  -->
+						<li class="latest__card card-latest card-latest--design">
+							<a href="#" class="card-latest__item">
+								<div class="card-latest__picture">
 									<img src="img/content_p/design_img.jpg" width="300" alt="some image">
 								</div>
-								<div class="card-portfolio__content">
-									<div class="card-portfolio__label">Design</div>
-									<h3 class="card-portfolio__title">SOFA</h3>
+								<div class="card-latest__content">
+									<div class="card-latest__label">Design</div>
+									<h3 class="card-latest__title">SOFA</h3>
 								</div>
 							</a>
-						</article>
-						<article class="portfolio__card card-portfolio card-portfolio--branding">
-							<a href="#" class="card-portfolio__item">
-								<div class="card-portfolio__picture">
+						</li>
+						<li class="latest__card card-latest card-latest--branding">
+							<a href="#" class="card-latest__item">
+								<div class="card-latest__picture">
 									<img src="img/content_p/branding_img.jpg" width="300" alt="some image">
 								</div>
-								<div class="card-portfolio__content">
-									<div class="card-portfolio__label">Branding</div>
-									<h3 class="card-portfolio__title">KeyBoard</h3>
+								<div class="card-latest__content">
+									<div class="card-latest__label">Branding</div>
+									<h3 class="card-latest__title">KeyBoard</h3>
 								</div>
 							</a>
-						</article>
-						<article class="portfolio__card card-portfolio card-portfolio--illustration">
-							<a href="#" class="card-portfolio__item">
-								<div class="card-portfolio__picture">
+						</li>
+						<li class="latest__card card-latest card-latest--illustration">
+							<a href="#" class="card-latest__item">
+								<div class="card-latest__picture">
 									<img src="img/content_p/illustration_img.jpg" width="300" alt="some image">
 								</div>
-								<div class="card-portfolio__content">
-									<div class="card-portfolio__label">Illustration</div>
-									<h3 class="card-portfolio__title">Work Media</h3>
+								<div class="card-latest__content">
+									<div class="card-latest__label">Illustration</div>
+									<h3 class="card-latest__title">Work Media</h3>
 								</div>
 							</a>
-						</article>
-						<article class="portfolio__card card-portfolio card-portfolio--motion">
-							<a href="#" class="card-portfolio__item">
-								<div class="card-portfolio__picture">
+						</li>
+						<li class="latest__card card-latest card-latest--motion">
+							<a href="#" class="card-latest__item">
+								<div class="card-latest__picture">
 									<img src="img/content_p/motion_img.jpg" width="300" alt="some image">
 								</div>
-								<div class="card-portfolio__content">
-									<div class="card-portfolio__label">Motion</div>
-									<h3 class="card-portfolio__title">DDDone</h3>
+								<div class="card-latest__content">
+									<div class="card-latest__label">Motion</div>
+									<h3 class="card-latest__title">DDDone</h3>
 								</div>
 							</a>
-						</article>
-					</div>
-					<button type="button" class="portfolio__button button button--border">Explore More</button>
-				</div>
+						</li>
+					</ul>
+					<button type="button" class="latest__button button button--border">Explore More</button>
+				</ul>
 			</section>
+			<!-- contact-us -->
 			<section class="page__contact-us contact-us">
 				<div class="contact-us__container">
 					<div class="contact-us__items">
@@ -123,6 +127,7 @@
 					</div>
 				</div>
 			</section>
+			<!-- events  -->
 			<section class="page__events events">
 				<div class="events__container">
 					<div class="events__header-block header-block header-block--center">
@@ -140,7 +145,8 @@
 									</div>
 								</div>
 								<div class="item-events__time"><time datetime="2021-11-03T09:00:00">9:00 am – 3:00
-										pm</time></div>
+										pm</time>
+								</div>
 							</div>
 							<h3 class="item-events__title"><a href="#">Design Weeks</a></h3>
 							<div class="item-events__text">
@@ -158,7 +164,8 @@
 									</div>
 								</div>
 								<div class="item-events__time"><time datetime="2021-11-15T13:00:00">1:00 pm – 8:00
-										pm</time></div>
+										pm</time>
+								</div>
 							</div>
 							<h3 class="item-events__title"><a href="#">Interior Design</a></h3>
 							<div class="item-events__text">
@@ -176,7 +183,8 @@
 									</div>
 								</div>
 								<div class="item-events__time"><time datetime="2021-12-02T10:00:00">10:00 am – 2:00
-										pm</time></div>
+										pm</time>
+								</div>
 							</div>
 							<h3 class="item-events__title"><a href="#">The F design events</a></h3>
 							<div class="item-events__text">
@@ -188,14 +196,15 @@
 					<button type="button" class="events__button button button--border">Explore More</button>
 				</div>
 			</section>
-			<section class="page__our-team our-team">
-				<div class="our-team__container">
-					<div class="our-team__body">
-						<div class="our-team__header-block header-block">
+			<!-- team  -->
+			<section class="page__team team">
+				<div class="team__container">
+					<div class="team__body">
+						<div class="team__header-block header-block">
 							<div class="header-block__label">Our Team</div>
 							<h2 class="header-block__title">Team of Designers and Developers</h2>
 						</div>
-						<div class="our-team__slider-arrows slider-arrows">
+						<div class="team__slider-arrows slider-arrows">
 							<button type="button" aria-label="Slider arrow - previous"
 								class="slider-arrows__arrow slider-arrows__arrow--left">
 								<img src="img/svg_p/arrow_icon.svg" alt="icon.">
@@ -206,45 +215,45 @@
 							</button>
 						</div>
 					</div>
-					<div class="our-team__items">
-						<article class="our-team__item">
-							<figure class="our-team__image">
-								<img src="img/content_p/person_1.png" class="our-team__picture" alt="some image">
-								<figcaption class="our-team__info">
-									<h4 class="our-team__name">Azah Anyeni</h4>
-									<div class="our-team__position">Designer</div>
+					<div class="team__items">
+						<article class="team__item">
+							<figure class="team__image">
+								<img src="img/content_p/person_1.png" class="team__picture" alt="some image">
+								<figcaption class="team__info">
+									<cite class="team__name">Azah Anyeni</cite>
+									<div class="team__position">Designer</div>
 								</figcaption>
 							</figure>
 						</article>
-						<article class="our-team__item">
-							<figure class="our-team__image">
-								<img src="img/content_p/person_2.png" class="our-team__picture" alt="some image">
-								<figcaption class="our-team__info">
-									<h4 class="our-team__name">Roelof Bekkenenks</h4>
-									<div class="our-team__position">React Developer</div>
+						<article class="team__item">
+							<figure class="team__image">
+								<img src="img/content_p/person_2.png" class="team__picture" alt="some image">
+								<figcaption class="team__info">
+									<cite class="team__name">Roelof Bekkenenks</cite>
+									<div class="team__position">React Developer</div>
 								</figcaption>
 							</figure>
 						</article>
-						<article class="our-team__item">
-							<figure class="our-team__image">
-								<img src="img/content_p/person_3.png" class="our-team__picture" alt="some image">
-								<figcaption class="our-team__info">
-									<h4 class="our-team__name">Leonardo Oliveira</h4>
-									<div class="our-team__position">Illustrator</div>
+						<article class="team__item">
+							<figure class="team__image">
+								<img src="img/content_p/person_3.png" class="team__picture" alt="some image">
+								<figcaption class="team__info">
+									<cite class="team__name">Leonardo Oliveira</cite>
+									<div class="team__position">Illustrator</div>
 								</figcaption>
 							</figure>
 						</article>
-						<article class="our-team__item">
-							<figure class="our-team__image">
-								<img src="img/content_p/person_4.png" class="our-team__picture" alt="some image">
-								<figcaption class="our-team__info">
-									<h4 class="our-team__name">Izabella Tabakova</h4>
-									<div class="our-team__position">Product Designer</div>
+						<article class="team__item">
+							<figure class="team__image">
+								<img src="img/content_p/person_4.png" class="team__picture" alt="some image">
+								<figcaption class="team__info">
+									<cite class="team__name">Izabella Tabakova</cite>
+									<div class="team__position">Product Designer</div>
 								</figcaption>
 							</figure>
 						</article>
 					</div>
-					<div class="our-team__slider-controls slider-controls">
+					<div class="team__slider-controls slider-controls">
 						<button type="button" aria-label="Slider control"
 							class="slider-controls__control slider-controls__control--active"></button>
 						<button type="button" aria-label="Slider control" class="slider-controls__control"></button>
@@ -252,106 +261,112 @@
 					</div>
 				</div>
 			</section>
-			<section class="page__founder-words founder-words">
-				<div class="founder-words__container">
-					<div class="founder-words__items">
-						<div class="founder-words__img">
-							<img src="img/content_p/founder_photo.png" class="founder-words__picture" alt="some image">
+			<!-- founder  -->
+			<section class="page__founder founder">
+				<div class="founder__container">
+					<div class="founder__items">
+						<div class="founder__img">
+							<img src="img/content_p/founder_photo.png" class="founder__picture" alt="some image">
 						</div>
-						<div class="founder-words__content">
-							<div class="founder-words__label">Founder Words</div>
-							<blockquote class="founder-words__quote">
+						<div class="founder__content">
+							<div class="founder__label">Founder Words</div>
+							<blockquote class="founder__quote">
 								<h2>Digital agency is a business you hire to outsource your digital marketing efforts
 								</h2>
 							</blockquote>
-							<div class="founder-words__name">Ren Delan</div>
-							<div class="founder-words__position">Founder</div>
+							<cite class="founder__name">Ren Delan</cite>
+							<div class="founder__position">Founder</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="page__testimonials testimonials">
-				<div class="testimonials__container">
-					<div class="testimonials__header-block header-block">
+			<!-- reviews  -->
+			<section class="page__reviews reviews">
+				<div class="reviews__container">
+					<div class="reviews__header-block header-block">
 						<div class="header-block__label">Testimonials</div>
 						<h2 class="header-block__title">What Our Clients Saying</h2>
 					</div>
-					<div class="testimonials__items">
-						<article class="testimonials__item">
-							<div class="testimonials__stars">
+					<div class="reviews__items">
+						<article class="reviews__item">
+							<div class="reviews__stars">
 								<img src="img/svg_p/stars.svg" alt="5 stars.">
 							</div>
-							<div class="testimonials__text">
+							<div class="reviews__text">
 								<p>A digital agency is a business you hire to outsource your digital marketing efforts,
 									instead of handling in-house. They can provide your business with a variety of
-									digital solutions to promote your product or service online and help you.</p>
+									digital solutions to promote your product or service online and help you.
+								</p>
 							</div>
-							<div class="testimonials__author-info author-info">
+							<div class="reviews__author-info author-info">
 								<div class="author-info__photo">
 									<img src="img/content_p/author_1.jpg" alt="some image">
 								</div>
 								<div class="author-info__details">
-									<h4 class="author-info__name">Alan Marti</h4>
+									<cite class="author-info__name">Alan Marti</cite>
 									<div class="author-info__position">Meta Inc.</div>
 								</div>
 							</div>
 						</article>
-						<article class="testimonials__item">
-							<div class="testimonials__stars">
+						<article class="reviews__item">
+							<div class="reviews__stars">
 								<img src="img/svg_p/stars.svg" alt="5 stars.">
 							</div>
-							<div class="testimonials__text">
+							<div class="reviews__text">
 								<p>Provide your business with a variety of digital solutions to promote your product or
-									service online.</p>
+									service online.
+								</p>
 							</div>
-							<div class="testimonials__author-info author-info">
+							<div class="reviews__author-info author-info">
 								<div class="author-info__photo">
 									<img src="img/content_p/author_2.jpg" alt="some image">
 								</div>
 								<div class="author-info__details">
-									<h4 class="author-info__name">Richardo Kann</h4>
+									<cite class="author-info__name">Richardo Kann</cite>
 									<div class="author-info__position">Photogram</div>
 								</div>
 							</div>
 						</article>
-						<article class="testimonials__item">
-							<div class="testimonials__stars">
+						<article class="reviews__item">
+							<div class="reviews__stars">
 								<img src="img/svg_p/stars.svg" alt="5 stars.">
 							</div>
-							<div class="testimonials__text">
+							<div class="reviews__text">
 								<p>Outsource your digital marketing efforts, instead of handling in-house. They can
-									provide your business with a variety.</p>
+									provide your business with a variety.
+								</p>
 							</div>
-							<div class="testimonials__author-info author-info">
+							<div class="reviews__author-info author-info">
 								<div class="author-info__photo">
 									<img src="img/content_p/author_3.jpg" alt="some image">
 								</div>
 								<div class="author-info__details">
-									<h4 class="author-info__name">Graham Griffiths</h4>
+									<cite class="author-info__name">Graham Griffiths</cite>
 									<div class="author-info__position">Twitor</div>
 								</div>
 							</div>
 						</article>
-						<article class="testimonials__item">
-							<div class="testimonials__stars">
+						<article class="reviews__item">
+							<div class="reviews__stars">
 								<img src="img/svg_p/stars.svg" alt="5 stars.">
 							</div>
-							<div class="testimonials__text">
+							<div class="reviews__text">
 								<p>Promote your product or service online and help you hit your marketing goals and grow
-									your business.</p>
+									your business.
+								</p>
 							</div>
-							<div class="testimonials__author-info author-info">
+							<div class="reviews__author-info author-info">
 								<div class="author-info__photo">
 									<img src="img/content_p/author_3.jpg" alt="some image">
 								</div>
 								<div class="author-info__details">
-									<h4 class="author-info__name">Maria Trofimova</h4>
+									<cite class="author-info__name">Maria Trofimova</cite>
 									<div class="author-info__position">Whochat</div>
 								</div>
 							</div>
 						</article>
 					</div>
-					<button type="button" class="testimonials__button button button--border">See All</button>
+					<button type="button" class="reviews__button button button--border">See All</button>
 				</div>
 			</section>
 		</main>
@@ -410,9 +425,6 @@
 			</div>
 		</footer>
 	</div>
-
-
-
 </body>
 
 </html>

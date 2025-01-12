@@ -13,7 +13,7 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="header__container">
-				<a href="#" class="header__logo"><img src="img/svg/logo.svg" alt="Logotype"><span>Personal</span></a>
+				<a href="#" class="header__logo"><img src="img/svg/logo.svg" alt="Logotype"><span>myself</span></a>
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul class="menu__list">
@@ -30,7 +30,8 @@
 						aria-label="burger menu icon"><span></span></button>
 				</div>
 			</div>
-		</header>
+		</header> 
+		<!-- main  -->
 		<main class="page">
 			<section class="page__hero hero">
 				<div class="hero__container">
@@ -42,17 +43,17 @@
 					</div>
 				</div>
 			</section>
-			<article class="page__personal personal">
-				<div class="personal__container">
-					<div class="personal__image">
+			<article class="page__myself myself">
+				<div class="myself__container">
+					<div class="myself__image">
 						<img src="img/content/main_img.jpg" width="300" alt="some image">
 					</div>
-					<div class="personal__about about-personal">
-						<div class="about-personal__header-block header-block">
-							<div class="header-block__label">Gabriel Pires</div>
+					<div class="myself__about about-myself">
+						<div class="about-myself__header-block header-block">
+							<cite class="header-block__label">Gabriel Pires</cite>
 							<h2 class="header-block__title">Professional Web Designer</h2>
 						</div>
-						<div class="about-personal__text">
+						<div class="about-myself__text">
 							<p>Ability to put themselves in the merchant's shoes. It is meant to partner on the long
 								run, and work as an extension of the merchant's team.
 							</p>
@@ -62,7 +63,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="personal__experience experience">
+					<div class="myself__experience experience">
 						<div class="experience__body">
 							<div class="experience__item">
 								<div class="experience__icon">
@@ -84,7 +85,8 @@
 							</div>
 						</div>
 					</div>
-					<section class="personal__video-reel video-reel">
+					<!-- video  -->
+					<section class="myself__video-reel video-reel">
 						<div class="video-reel__body">
 							<div class="video-reel__header-block header-block">
 								<div class="header-block__label">Video Reel</div>
@@ -95,8 +97,10 @@
 									meant to partner.
 								</p>
 							</div>
-							<video class="video-reel__media" src="img/content/video.png" controls=""
-								poster="img/content/video.png"></video>
+							<div class="video-reel__video">
+								<video class="video-reel__media" src="img/content/video.png" controls=""
+									poster="img/content/video.png"></video>
+							</div>
 							<div class="video-reel__text">
 								<p>Ability to put themselves in the merchant's shoes. It is meant to partner on the long
 									run, and work as an extension of the merchant's team.
@@ -110,52 +114,54 @@
 					</section>
 				</div>
 			</article>
+			<!-- founder  -->
 			<section class="page__founder-quote founder-quote">
 				<div class="founder-quote__container">
 					<div class="founder-quote__label">Founder Words</div>
 					<blockquote class="founder-quote__text">
 						<h2>Digital agency is a business you hire to outsource your digital marketing efforts</h2>
 					</blockquote>
-					<div class="founder-quote__author">Gabriel Pires</div>
+					<cite class="founder-quote__author">Gabriel Pires</cite>
 					<div class="founder-quote__position">Founder</div>
 				</div>
 			</section>
 			<div class="page__companies companies">
-				<div class="companies__container">
-					<div class="companies__item">
+				<ul class="companies__container">
+					<li class="companies__item">
 						<img src="img/content/company_1.png" alt="logo.">
-					</div>
-					<div class="companies__item">
+					</li>
+					<li class="companies__item">
 						<img src="img/content/company_2.png" alt="logo.">
-					</div>
-					<div class="companies__item">
+					</li>
+					<li class="companies__item">
 						<img src="img/content/company_3.png" alt="logo.">
-					</div>
-					<div class="companies__item">
+					</li>
+					<li class="companies__item">
 						<img src="img/content/company_4.png" alt="logo.">
-					</div>
-					<div class="companies__item">
+					</li>
+					<li class="companies__item">
 						<img src="img/content/company_5.png" alt="logo.">
-					</div>
-				</div>
+					</li>
+				</ul>
 			</div>
-			<section class="page__contact-us contact-us">
-				<div class="contact-us__container">
-					<div class="contact-us__items">
-						<div class="contact-us__item">
-							<div class="contact-us__icon">
+			<!-- contacts   -->
+			<section class="page__contacts contacts">
+				<div class="contacts__container">
+					<div class="contacts__items">
+						<div class="contacts__item">
+							<div class="contacts__icon">
 								<img src="img/svg/present_icon.svg" alt="icon.">
 							</div>
-							<a href="#" class="contact-us__label">Get
+							<a href="#" class="contacts__label">Get
 								Started</a>
-							<h3 class="contact-us__title">I Help Companies Move Faster</h3>
-							<a href="#" class="contact-us__button button button--orange">Contact Us</a>
+							<h3 class="contacts__title">I Help Companies Move Faster</h3>
+							<a href="#" class="contacts__button button button--orange">Contact Us</a>
 						</div>
-						<div class="contact-us__text">
+						<div class="contacts__text">
 							<p>Put themselves in the merchant's shoes. It is meant to partner on the long run.</p>
 						</div>
-						<div class="contact-us__item">
-							<div class="contact-us__card">
+						<div class="contacts__item">
+							<div class="contacts__card">
 								<img src="img/svg/contact_us_card.svg" alt="some image">
 							</div>
 						</div>
@@ -163,10 +169,11 @@
 				</div>
 			</section>
 		</main>
+		<!-- footer  -->
 		<footer class="footer footer--dark">
 			<div class="footer__container">
 				<div class="footer__body">
-					<a href="#" class="footer__logo">Personal</a>
+					<a href="#" class="footer__logo">myself</a>
 					<div class="footer__menu menu-footer">
 						<div class="menu-footer__label">Menu</div>
 						<ul class="menu-footer__list">
