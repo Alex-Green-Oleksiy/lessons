@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Lesson_21</title>
+        <!-- <base href="#" target="_blank"> -->
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="header__container">
+                    <a href="#" class="header__logo"
+                        ><img src="img/logo.svg" alt="some image"
+                    /></a>
+                    <nav class="header__menu menu">
+                        <div class="menu__body">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Home</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a
+                                        href="#"
+                                        class="menu__link menu__link--active"
+                                        >Movies & Shows</a
+                                    >
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Support</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link"
+                                        >Subscriptions</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="header__actions actions-header">
+                        <button
+                            class="actions-header__item"
+                            type="button"
+                            aria-label="Search"
+                        >
+                            <img
+                                src="img/icon/header-search.svg"
+                                alt="some image"
+                            />
+                        </button>
+                        <button
+                            class="actions-header__item"
+                            type="button"
+                            aria-label="Notification"
+                        >
+                            <img
+                                src="img/icon/header-notify.svg"
+                                alt="some image"
+                            />
+                        </button>
+                        <button
+                            class="actions-header__icon icon-menu"
+                            type="button"
+                            aria-label="Open menu"
+                        >
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </header>
+            <main class="page">
+                <section class="hero">
+                    <div class="hero__container">
+                        <div class="hero__block">
+                            <div class="hero__poster">
+                                <img src="img/avengers.webp" alt="some image" />
+                            </div>
+                            <div class="hero__content">
+                                <h1 class="hero__tittle">Avengers : Endgame</h1>
+                                <p class="hero__text">
+                                    With the help of remaining allies, the
+                                    Avengers must assemble once more in order to
+                                    undo Thanos's actions and undo the chaos to
+                                    the universe, no matter what consequences
+                                    may be in store, and no matter who they
+                                    face... Avenge the fallen.
+                                </p>
+                                <div class="hero__buttons">
+                                    <a class="hero__button button" href="#"
+                                        >Play Now</a
+                                    >
+                                    <div class="hero__butons-icon">
+                                        <button
+                                            class="hero__button-icon button-icon"
+                                            type="button"
+                                            aria-label="Add to watchlist"
+                                        >
+                                            <img
+                                                src="img/plus.svg"
+                                                alt="Icon plus"
+                                            />
+                                        </button>
+                                        <button
+                                            class="hero__button-icon button-icon"
+                                            type="button"
+                                            aria-label="Add to favorites"
+                                        >
+                                            <img
+                                                src="img/like.svg"
+                                                alt="Icon like"
+                                            />
+                                        </button>
+                                        <button
+                                            class="hero__button-icon button-icon"
+                                            type="button"
+                                            aria-label="Control the volume"
+                                        >
+                                            <img
+                                                src="img/loudness.svg"
+                                                alt="some image"
+                                            />
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hero__sliders">
+                                <button
+                                    class="hero__slider hero__slider--prew button-icon"
+                                >
+                                    <img src="img/arrow.svg" alt="Icon arrow" />
+                                </button>
+                                <div class="hero__pages pages">
+                                    <div
+                                        class="pages__page pages__page--active"
+                                    ></div>
+                                    <div class="pages__page"></div>
+                                    <div class="pages__page"></div>
+                                    <div class="pages__page"></div>
+                                </div>
+                                <button
+                                    class="hero__slider hero__slider--next button-icon"
+                                >
+                                    <img src="img/arrow.svg" alt="Icon arrow" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="switch">
+                    <div class="switch__container">
+                        <div class="switch__buttons">
+                            <a href="#">Movies</a>
+                            <a href="#">Shows</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movies">
+                    <div class="movies__container">
+                        <a href="#" class="movies__tittle button">
+                            <h2>Movies</h2>
+                        </a>
+                        <div class="movies__body">
+                            <section class="movies__cards genres">
+                                <div class="genres__headline headline">
+                                    <h3 class="headline__tittle">Our Genres</h3>
+                                    <div class="headline__sliders sliders">
+                                        <button
+                                            class="sliders__slider sliders__slider--prew button-icon"
+                                        >
+                                            <img
+                                                src="img/arrow.svg"
+                                                alt="Icon arrow"
+                                            />
+                                        </button>
+                                        <div class="sliders__pages pages">
+                                            <div
+                                                class="pages__page pages__page--active"
+                                            ></div>
+                                            <div class="pages__page"></div>
+                                            <div class="pages__page"></div>
+                                            <div class="pages__page"></div>
+                                        </div>
+                                        <button
+                                            class="sliders__slider sliders__slider--next button-icon"
+                                        >
+                                            <img
+                                                src="img/arrow.svg"
+                                                alt="Icon arrow"
+                                            />
+                                        </button>
+                                    </div>
+                                </div>
+                                <ul class="genres__items">
+                                    <li>
+                                        <a href="#" class="genres__card">
+                                            <div class="genres__images">
+                                                <img
+                                                    src="img/genres/action-punch.webp"
+                                                    alt="some image"
+                                                />
+                                                <img
+                                                    src="img/genres/action-panther.webp"
+                                                    alt="some image"
+                                                />
+                                                <img
+                                                    src="img/genres/action-batman.webp"
+                                                    alt="some image"
+                                                />
+                                                <img
+                                                    src="img/genres/action-expendables.webp"
+                                                    alt="some image"
+                                                />
+                                            </div>
+                                            <div class="genres__genre">
+                                                <h4 class="genres__subtittle">
+                                                    Action
+                                                </h4>
+                                                <img
+                                                    src="img/arrow.svg"
+                                                    alt="Icon arrow"
+                                                />
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="genres__card">
+                                            <div class="genres__images">
+                                                <img
+                                                    src="img/genres/archer.webp"
+                                                    alt="some image"
+                                                />
+                                                <img
+                                                    src="img/genres/jungle.webp"
+                                                    alt=" some image"
+                                                />
+                                                <img
+                                                    src="img/genres/jack.webp"
+                                                    alt="some image"
+                                                />
+                                                <img
+                                                    src="img/genres/golden.webp"
+                                                    alt="some image"
+                                                />
+                                            </div>
+                                            <div class="genres__genre">
+                                                <h4 class="genres__subtittle">
+                                                    Adventure
+                                                </h4>
+                                                <img
+                                                    src="img/arrow.svg"
+                                                    alt="Icon arrow"
+                                                />
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="genres__card">
+                                            <div class="genres__images">
+                                                <img
+                                                    src="img/genres/good.webp"
+                                                    alt=" some image"
+                                                />
+                                                <img
+                                                    src="img/genres/central.webp"
+                                                    alt="some image"
+                                                />
+                                                <img
+                                                    src="img/genres/bhool.webp"
+                                                    alt="some image"
+                                                />
+                                                <img
+                                                    src="img/genres/udanchhoo.webp"
+                                                    alt="some image"
+                                                />
+                                            </div>
+                                            <div class="genres__genre">
+                                                <h4 class="genres__subtittle">
+                                                    Comedy
+                                                </h4>
+                                                <img
+                                                    src="img/arrow.svg"
+                                                    alt="Icon arrow"
+                                                />
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="genres__card">
+                                            <div class="genres__images">
+                                                <img
+                                                    src="img/genres/family.webp"
+                                                    alt="some image"
+                                                />
+                                                <img
+                                                    src="img/genres/joker.webp"
+                                                    alt="some image"
+                                                />
+                                                <img
+                                                    src="img/genres/pain.webp"
+                                                    alt="some image"
+                                                />
+                                                <img
+                                                    src="img/genres/bholaa.webp"
+                                                    alt="some image"
+                                                />
+                                            </div>
+                                            <div class="genres__genre">
+                                                <h4 class="genres__subtittle">
+                                                    Drama
+                                                </h4>
+                                                <img
+                                                    src="img/arrow.svg"
+                                                    alt="Icon arrow"
+                                                />
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="genres__card">
+                                            <div class="genres__images">
+                                                <img
+                                                    src="img/genres/us.webp"
+                                                    alt="some image"
+                                                />
+                                                <img
+                                                    src="img/genres/skream.webp"
+                                                    alt="some image"
+                                                />
+                                                <img
+                                                    src="img/genres/flesh.webp"
+                                                    alt="some image"
+                                                />
+                                                <img
+                                                    src="img/genres/human.webp"
+                                                    alt="some image"
+                                                />
+                                            </div>
+                                            <div class="genres__genre">
+                                                <h4 class="genres__subtittle">
+                                                    Horror
+                                                </h4>
+                                                <img
+                                                    src="img/arrow.svg"
+                                                    alt="Icon arrow"
+                                                />
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="genres__scroll scroll">
+                                    <div></div>
+                                </div>
+                            </section>
+
+                            <section class="movies__cards trend">
+                                <div class="trend__headline headline">
+                                    <h3 class="headline__tittle">
+                                        Trending Now
+                                    </h3>
+                                    <div class="headline__sliders sliders">
+                                        <button
+                                            class="sliders__slider sliders__slider--prew button-icon"
+                                        >
+                                            <img
+                                                src="img/arrow.svg"
+                                                alt="Icon arrow"
+                                            />
+                                        </button>
+                                        <div class="sliders__pages pages">
+                                            <div
+                                                class="pages__page pages__page--active"
+                                            ></div>
+                                            <div class="pages__page"></div>
+                                            <div class="pages__page"></div>
+                                            <div class="pages__page"></div>
+                                        </div>
+                                        <button
+                                            class="sliders__slider sliders__slider--next button-icon"
+                                        >
+                                            <img
+                                                src="img/arrow.svg"
+                                                alt="Icon arrow"
+                                            />
+                                        </button>
+                                    </div>
+                                </div>
+                                <ul class="trend__items">
+                                    <li>
+                                        <a href="#" class="trend__card">
+                                            <div class="trend__image">
+                                                <img
+                                                    src="img/trend/morbius.webp"
+                                                    alt="some image"
+                                                />
+                                            </div>
+                                            <div class="trend__description">
+                                                <p class="trend__time">
+                                                    1h 30min
+                                                </p>
+                                                <p class="trend__views">2K</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="trend__card">
+                                            <div class="trend__image">
+                                                <img
+                                                    src="img/trend/bhaajan.webp"
+                                                    alt="some image"
+                                                />
+                                            </div>
+                                            <div class="trend__description">
+                                                <p class="trend__time">
+                                                    1h 57min
+                                                </p>
+                                                <p class="trend__views">1.5K</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="trend__card">
+                                            <div class="trend__image">
+                                                <img
+                                                    src="img/trend/suraj.webp"
+                                                    alt="some image"
+                                                />
+                                            </div>
+                                            <div class="trend__description">
+                                                <p class="trend__time">
+                                                    2h 10min
+                                                </p>
+                                                <p class="trend__views">1.8K</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="trend__card">
+                                            <div class="trend__image">
+                                                <img
+                                                    src="img/trend/pathan.webp"
+                                                    alt="some image"
+                                                />
+                                            </div>
+                                            <div class="trend__description">
+                                                <p class="trend__time">
+                                                    2h 20min
+                                                </p>
+                                                <p class="trend__views">3K</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="trend__card">
+                                            <div class="trend__image">
+                                                <img
+                                                    src="img/trend/iron-man.webp"
+                                                    alt="some image"
+                                                />
+                                            </div>
+                                            <div class="trend__description">
+                                                <p class="trend__time">
+                                                    1h 42min
+                                                </p>
+                                                <p class="trend__views">5K</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="trend__scroll scroll">
+                                    <div></div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="footer__container"></div>
+            </footer>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
