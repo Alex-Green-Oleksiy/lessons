@@ -11,7 +11,7 @@
 
 <body>
 	<div class="wrapper">
-		
+		<button id="audioControl">🔇 Увімкнути звук</button>
 			<audio id="bgMusic" autoplay loop controls>
             <source src="./music/0508.WAV" type="audio/wav" />
             Ваш браузер не підтримує аудіотег.
@@ -81,19 +81,22 @@
 	</div>
 	<script>
 		'use strict'
+	const audio = document.getElementById('bgMusic');
+		const button = document.getElementById('audioControl');
+
 		button.addEventListener('click', () => {
-    if (audio.paused) {
-        audio.play().then(() => {
-            button.textContent = '🔊 Вимкнути звук';
-        }).catch(error => {
-            console.log('Error playing audio:', error);
-            button.textContent = '🔇 Увімкнути звук';
-        });
-    } else {
-        audio.pause();
-        button.textContent = '🔇 Увімкнути звук';
-    }
-});
+			if (audio.paused) {
+				audio.play().then(() => {
+					button.textContent = '🔊 Вимкнути звук';
+				}).catch(error => {
+					console.log('Error playing audio:', error);
+					button.textContent = '🔇 Увімкнути звук';
+				});
+			} else {
+				audio.pause();
+				button.textContent = '🔇 Увімкнути звук';
+			}
+		});
 
 	</script>
 </body>
